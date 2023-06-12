@@ -47,7 +47,8 @@ static void Usage(const char *pszErrorMsg = nullptr)
            "                [-listmdd] [-mdd domain|`all`] [-wkt_format "
            "WKT1|WKT2|...]*\n"
            "                [-sd subdataset] [-oo NAME=VALUE]* [-if format]* "
-           "datasetname\n");
+           "datasetname\n"
+           "\n THIS IS MY PATCH \n");
 
     if (pszErrorMsg != nullptr)
         fprintf(stderr, "\nFAILURE: %s\n", pszErrorMsg);
